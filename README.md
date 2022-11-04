@@ -30,5 +30,7 @@ radix sort. If the user does not enter a base as the command-line argument, prog
 needed for sorting in nanoseconds, excluding the time to generate the random numbers, 
 sorting time is displayed for each pass, then the average sorting time is computed.
 
+- See sample output above (with different bases) for more information.
+
 *Note: Chrono library is used in this program to deal with measuring the time, which is only supported in C++11 or above, make sure to include the flag ```-std=c++11``` when compile to avoid warning. [Read more about Chrono](https://www.geeksforgeeks.org/chrono-in-c/).
 
