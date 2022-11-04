@@ -1,0 +1,54 @@
+Radix Sort: base = 10 size = 10
+Unsorted: 5049 1145 2871 9651 8933 9130 4729 9258 3575 4597 
+Sorted: 1145 2871 3575 4597 4729 5049 8933 9130 9258 9651 
+Pass 1:   3959 nanoseconds
+Pass 2:   2625 nanoseconds
+Pass 3:   2500 nanoseconds
+Pass 4:   2458 nanoseconds
+Pass 5:   2334 nanoseconds
+Pass 6:   2333 nanoseconds
+Pass 7:   2459 nanoseconds
+Pass 8:   2500 nanoseconds
+Pass 9:   2375 nanoseconds
+Pass 10:   2458 nanoseconds
+Average:   2600.1 nanoseconds
+
+Radix Sort: base = 10 size = 100
+Pass 1:   14916 nanoseconds
+Pass 2:   14750 nanoseconds
+Pass 3:   14500 nanoseconds
+Pass 4:   14500 nanoseconds
+Pass 5:   14542 nanoseconds
+Pass 6:   14542 nanoseconds
+Pass 7:   14625 nanoseconds
+Pass 8:   14667 nanoseconds
+Pass 9:   14542 nanoseconds
+Pass 10:   14583 nanoseconds
+Average:   17216.8 nanoseconds
+
+Radix Sort: base = 10 size = 1000
+Pass 1:   134416 nanoseconds
+Pass 2:   135500 nanoseconds
+Pass 3:   135250 nanoseconds
+Pass 4:   135417 nanoseconds
+Pass 5:   135375 nanoseconds
+Pass 6:   121500 nanoseconds
+Pass 7:   111625 nanoseconds
+Pass 8:   111500 nanoseconds
+Pass 9:   111584 nanoseconds
+Pass 10:   111583 nanoseconds
+Average:   141591.8 nanoseconds
+
+Radix Sort: base = 10 size = 10000
+Pass 1:   1112917 nanoseconds
+Pass 2:   1159416 nanoseconds
+Pass 3:   1082542 nanoseconds
+Pass 4:   768250 nanoseconds
+Pass 5:   758542 nanoseconds
+Pass 6:   743959 nanoseconds
+Pass 7:   734333 nanoseconds
+Pass 8:   736166 nanoseconds
+Pass 9:   733291 nanoseconds
+Pass 10:   733750 nanoseconds
+Average:   997908.4 nanoseconds
+
